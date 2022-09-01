@@ -1,0 +1,19 @@
+body {
+    background: lightcyan url('img/GettyImages-1175550351.jpeg') no-repeat center fixed;
+    background-size: 300px;
+    font-family: monospace;
+}
+
+p {
+    color: blue;
+    background-color: cornflowerblue;
+    padding: 50px;
+}
+
+.special {
+    color:azure;
+    background: rebeccapurple;
+    font-size: 150%;
+    font-family: cursive;
+    margin: 30px;
+}
