@@ -1,6 +1,7 @@
 body {
     background: rgb(167, 239, 245);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color:rgb(54, 110, 115);
 }
 p {
     margin: 50px;
