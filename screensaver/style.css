@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    background: lightcyan url('img/gradient.jpg') center;
+}
+
+.flex {
+    display:flex;
+    width:100vw;
+    height:20vh;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.flex2 {
+    display:flex;
+    width:100vw;
+    height:28vh;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.flex3 {
+    display:flex;
+    width:100vw;
+    height:10vh;
+    justify-content: space-around;
+}
+
+.circle {
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    animation-name:pulse;
+    animation-duration:1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+
+    animation: pulse 1s infinite alternate ease-out;
+}
+
+.circle2 {
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    animation-name:pulse;
+    animation-duration:.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+
+    animation: pulse .5s infinite alternate ease-out;
+}
+
+.circle3 {
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    animation-name:pulse;
+    animation-duration:.8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+
+    animation: pulse .8s infinite alternate ease-out;
+}
+
+.moon {
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    animation-name:float;
+    animation-duration:1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+
+    animation: float 1s infinite alternate ease-out;
+}
+
+.cloud {
+    width: 200px;
+    height: 50px;
+    top: 0;
+    left: 0;
+
+    animation: move 30s infinite ;
+}
+
+.pumpkin {
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+    position:fixed;
+    bottom: 0px;
+    left: 1200px;
+}
+
+.pumpkin2 {
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+    position:fixed;
+    bottom: 0px;
+    left: 900px;
+}
+
+.glow{
+    width: 150px;
+    height: 147px;
+    background-color: lightgoldenrodyellow;
+    position:fixed;
+    border-radius:50%;
+    bottom: 11px;
+    left: 1210px;
+    animation-name:glow;
+    animation-duration:1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+
+    animation: glow 1s infinite alternate ease-out;
+}
+
+.glow2{
+    width: 117px;
+    height: 155px;
+    background-color: lightgoldenrodyellow;
+    position:fixed;
+    border-radius:50%;
+    bottom: 11px;
+    left: 939px;
+    animation-name:glow;
+    animation-duration:.8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+
+    animation: glow .8s infinite alternate ease-out;
+}
+
+@keyframes pulse {
+    0% {
+        opacity:10%;
+        transform: scale(.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(15px);
+    }
+    100% {
+        transform: translateY(-15px);
+    }
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(-200px);
+    }
+    100% {
+        transform: translateX(100vw);
+    }
+}
+
+@keyframes glow {
+    0% {
+        background-color: lightgoldenrodyellow;
+    }
+    100% {
+        background-color: black;
+    }
+}

@@ -1,0 +1,88 @@
+body {
+    background:lightblue
+}
+.maincontainer {
+    width:100vw;
+    height:25vh;
+    display:flex;
+    flex-direction:row;
+    gap:20px;
+}
+.sun {
+    width:25vw;
+    height:25vh;
+    display:flex;
+    gap:20px;
+}
+.cloud {
+    width:25vw;
+    height:25vh;
+    display:flex;
+    gap:20px;
+}
+.movingrain {
+    width:100vw;
+    height:25vh;
+    display:flex;
+    flex-direction:row;
+    gap:20px;
+}
+.secondcontainer {
+    width:100vw;
+    height:25vh;
+    display:flex;
+    flex-direction:row;
+    gap:20px;
+}
+.thirdcontainer {
+    width:100vw;
+    height:25vh;
+    display:flex;
+    flex-direction:row;
+    gap:10px;
+}
+.rain {
+    width:25vw;
+    height:25vh;
+    display:flex;
+    flex-direction:row;
+}
+.rain2 {
+    width:25vw;
+    height:25vh;
+    display:flex;
+    flex-direction:row;
+    position:fixed;
+}
+.rain3 {
+    width:25vw;
+    height:25vh;
+    display:flex;
+    flex-direction:row;
+}
+.rain4 {
+    width:25vw;
+    height:25vh;
+    display:flex;
+    flex-direction:row;
+}
+.rain5 {
+    width:25vw;
+    height:25vh;
+    display:flex;
+    flex-direction:row;
+}
+.fourthcontainer {
+    width:100vw;
+    height:25vh;
+    display:flex;
+    flex-direction:row;
+    gap:10px;
+}
+.fifthcontainer {
+    width:100vw;
+    height:25vh;
+    display:flex;
+    flex-direction:row;
+    gap:10px;
+}

@@ -3,5 +3,75 @@
 }
 
 body {
-    margin:0;
+    margin:20px;
+    background-color: lightpink;
+    transition: background-color 2s;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    background-color: bisque;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+main {
+    display:flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+main nav, main div, footer {
+    padding:10px;
+    background-color: bisque;
+}
+
+nav, .details {
+    width:25%;
+}
+
+.center {
+    width: 50%;
+}
+
+footer {
+    text-align: center;
+}
+
+.secret {
+    text-align: center;
+    background-color: red;
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 20px;
+    display: none;
+}
+
+@media screen and (max-width:800px) {
+    body {
+        background-color: plum;
+    }
+
+    main {
+        flex-wrap: wrap;
+    }
+
+    nav, .center, .details {
+        width: 100%;
+    }
+
+    .secret {
+        display:block;
+    }
+}
+
+@media screen and (max-width:600px) {
+    body {
+        background-color: rgb(171, 83, 215);
+        font-size: 200%;
+    }
 }
