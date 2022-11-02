@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>java exercise</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       
+        <button onclick="toggle()">Click me...</button>
+
+        <div id="box">
+            the box
+        </div>
+
+        <script>
+            function toggle() {
+                var element = document.getElementById("box");
+                element.classList.toggle("active");
+            }
+        </script>
+        
+    </body>
+</html>

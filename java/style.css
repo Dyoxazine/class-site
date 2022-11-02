@@ -1,0 +1,14 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    margin:0;
+}
+
+.active {
+    padding: 20px;
+    background-color: slategray;
+    color: white;
+    font-size: 20 px;
+}
