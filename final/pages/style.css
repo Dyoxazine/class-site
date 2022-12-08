@@ -1,0 +1,230 @@
+body {
+    margin:0;
+    background: lightcyan url('../img/background.jpg') ;
+}
+
+.textbox {
+    width:550px;
+    height:700px;
+    position:fixed;
+    left: 140px;
+    top: 200px;
+}
+
+.special2 {
+    color:rgb(90, 33, 133);
+    font-size: 150%;
+    font-family: cursive;
+}
+
+.special3 {
+    color:rgb(90, 33, 133);
+    font-size: 175%;
+    font-family: cursive;
+}
+
+.special {
+    color:rgb(90, 33, 133);
+    font-size: 100%;
+    font-family: cursive;
+    margin: 30px;
+}
+
+.twinkle {
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    position:fixed;
+    left:1400px;
+    top:500px;
+    animation-name:twinkle;
+    animation-duration:1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+
+    animation: twinkle 1s infinite alternate ease-out;
+}
+
+.twinkle2 {
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    position:fixed;
+    left:1500px;
+    top:200px;
+    animation-name:twinkle;
+    animation-duration:1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+
+    animation: twinkle 1.5s infinite alternate ease-out;
+}
+
+.twinkle3 {
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    position:fixed;
+    left:200px;
+    top:800px;
+    animation-name:twinkle2;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+
+    animation: twinkle2 2s infinite alternate ease-out;
+}
+
+.twinkle4 {
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    position:fixed;
+    left:1000px;
+    top:720px;
+    animation-name:twinkle;
+    animation-duration:2.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+
+    animation: twinkle 2.5s infinite alternate ease-out;
+}
+
+.twinkle5 {
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    position:fixed;
+    left:1500px;
+    top:700px;
+    animation-name:twinkle2;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+
+    animation: twinkle2 3s infinite alternate ease-out;
+}
+
+.twinkle6 {
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    position:fixed;
+    left:600px;
+    top:400px;
+    animation-name:twinkle;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+
+    animation: twinkle 3s infinite alternate ease-out;
+}
+
+.twinkle7 {
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    position:fixed;
+    left:700px;
+    top:300px;
+    animation-name:twinkle2;
+    animation-duration:3.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+
+    animation: twinkle2 3.5s infinite alternate ease-out;
+}
+
+.twinkle8 {
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    position:fixed;
+    left:600px;
+    top:650px;
+    animation-name:twinkle;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+
+    animation: twinkle 4s infinite alternate ease-out;
+}
+
+.twinkle9 {
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    position:fixed;
+    left:900px;
+    top:100px;
+    animation-name:twinkle2;
+    animation-duration:1.75s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+
+    animation: twinkle2 1.75s infinite alternate ease-out;
+}
+
+.twinkle10 {
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    position:fixed;
+    left:300px;
+    top:100px;
+    animation-name:twinkle2;
+    animation-duration:4.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+
+    animation: twinkle2 4.5s infinite alternate ease-out;
+}
+
+.section {
+    width: 600px;
+    height: 40px;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+
+    animation: float 3s infinite alternate;
+}
+
+@keyframes twinkle {
+    0% {
+        opacity:10%;
+        transform: scale(.2);
+    }
+    100% {
+        transform: scale(.5);
+    }
+}
+
+@keyframes twinkle2 {
+    0% {
+        opacity:10%;
+        transform: scale(.1);
+    }
+    100% {
+        transform: scale(.3);
+    }
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(15px);
+    }
+    100% {
+        transform: translateY(-15px);
+    }
+}
