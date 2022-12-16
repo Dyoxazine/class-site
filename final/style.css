@@ -189,9 +189,9 @@ body {
     height: 350px;
     position: fixed;
     top: 0px;
-    left: 0px;
+    left: 50px;
 
-    animation: move 60s infinite ;
+    animation: float 60s infinite ;
 }
 
 .movetext2 {
@@ -230,5 +230,14 @@ body {
     }
     100% {
         transform: translateX(100vw);
+    }
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(15px);
+    }
+    100% {
+        transform: translateY(-15px);
     }
 }
