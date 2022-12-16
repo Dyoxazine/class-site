@@ -191,7 +191,7 @@ body {
     top: 0px;
     left: 50px;
 
-    animation: float 60s infinite ;
+    animation: float 60s infinite alternate ease-out;
 }
 
 .movetext2 {
